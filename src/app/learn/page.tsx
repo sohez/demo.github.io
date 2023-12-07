@@ -25,8 +25,8 @@ const Home = () => {
 
   return (
     <>
-      {data.map((item) => (
-        <div>
+      {data.map((item,i) => (
+        <div key={i}>
           <h1>{item.name}</h1>
           <br />
           <button onClick={() => removeItem(item.id)}>remove item</button>
