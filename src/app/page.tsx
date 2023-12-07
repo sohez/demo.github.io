@@ -1,6 +1,11 @@
+"use client";
+import React, { useState } from "react";
 
-export default function Home() {
+const Home = () => {
   return (
-    <h1>this is simple heading...</h1>
-  )
-}
+    <>
+    <h1>Home Page</h1>
+    </>
+  );
+};
+export default Home;
